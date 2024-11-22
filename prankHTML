@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Prank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="goFullScreen()">
+  <div id="main-screen">
+    <div class="title-screen">
+      <h1>Minecraft</h1>
+      <button id="single-player" onclick="singlePlayerClicked()">Single Player</button>
+    </div>
+  </div>
+  
+  <div id="virus-alert" class="hidden">
+    <h2>Virus Detected!</h2>
+    <p>Your system has been compromised. Please contact support immediately.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

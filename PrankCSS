@@ -1,0 +1,65 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1b1b1b;
+    color: white;
+    font-family: "Minecraft", sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #single-player {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #single-player:hover {
+    background-color: #45a049;
+  }
+  
+  /* Virus Alert Styles */
+  #virus-alert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: red;
+    font-size: 30px;
+  }
+  
+  #virus-alert h2 {
+    color: red;
+    font-size: 60px;
+  }
+  
+  #virus-alert p {
+    font-size: 25px;
+  }
+  
+  /* Hidden class for the virus alert */
+  .hidden {
+    display: none;
+  }
+  
